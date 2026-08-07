@@ -1,0 +1,6 @@
+README.md
+PUBLIC-ALLOWLIST.txt
+LICENSE
+scripts/check-public-split.sh
+.github/workflows/public-split.yml
+.gitignore
