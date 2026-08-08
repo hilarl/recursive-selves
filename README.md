@@ -75,8 +75,13 @@ Everything else here is downstream of that sentence.
 
 The verification substrate is load-bearing. A self that authors its own ground truth can prove
 anything, and a self-improving one will. **All seven regimes below now refuse to exist without
-their substrate** — a self whose ground truth is a model's opinion is refused at construction,
-not discouraged in documentation.
+their substrate declared** — a self whose ground truth is a model's opinion is refused at
+construction, not discouraged in documentation.
+
+What closed is the construction layer: a self refuses to build without its declared protocol or
+register. The live substrate those declarations point at — the raters behind the protocol, the
+capture path behind the register — is a deployment that has not happened. Refusal at construction
+proves the self demands its ground; only deployment supplies it.
 
 ## Expertise groups by how it is proved wrong
 
