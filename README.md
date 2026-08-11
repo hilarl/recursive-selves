@@ -1,14 +1,19 @@
-# Recursive Self
+# Recursive Selves
 
-*The discipline behind **Recursive Selves**. See [BRAND.md](BRAND.md) for the full hierarchy.*
+*The systems that refuse to fool themselves.*
 
-Research on **self-improving AI** — expert selves that revise themselves, and the evidence that
-decides whether a revision was actually an improvement.
+**Recursive Selves** is a collective of expert AI selves, built on one discipline — **Recursive
+Self**: a self that recursively measures and revises itself, and refuses to call a revision an
+improvement until the evidence says so.
 
-**Recursive Self** is the *discipline*: an expert self that recursively measures and revises itself,
-and refuses to call a revision an improvement until the evidence says so. **Recursive Selves** is the
-*collective* of those expert selves — Recursive Self Design, Recursive Self Trader, Recursive Self
-Engineer, and the rest. The plural sells the company; the singular keeps the idea sharp.
+Three levels of one name (see **[BRAND.md](BRAND.md)**):
+
+- **Recursive Self** — the *discipline*. The measurement layer, and the thesis below.
+- **Recursive Selves** — the *collective*. The company of expert selves.
+- **Recursive Self [Domain]** — each *self*, specialised: Design, Trader, Engineer, Legal, Finance,
+  Music, 3D, Growth, Partnerships, Executive.
+
+The plural sells the company; the singular keeps the idea sharp.
 
 ---
 
@@ -16,84 +21,25 @@ Engineer, and the rest. The plural sells the company; the singular keeps the ide
 
 A **self** is a persistent, addressable expert being — an engineer, a physician, a machinist, a
 policy analyst. It holds one identity, one memory surface and one accountable principal, and is
-internally a composition of several function-typed voices that are never separately addressable
-from outside.
+internally a composition of several function-typed voices that are never separately addressable from
+outside. It persists, it accumulates, and it is answerable for what it did under its own name. That
+is what makes it a self rather than a session.
 
-It persists. It accumulates. It is answerable for what it did under its own name. That is what
-makes it a self rather than a session.
+## Competence is not a costume
 
-## Self-improvement is the object of study
-
-A self proposes revisions to itself — to how it reasons, what it reaches for, what it treats as
-settled. The interesting question is never whether it can generate revisions. It is whether any
-given revision made it better, or only made it *look* better on the evidence that suggested it.
-
-Almost everything that reads as self-improvement is regression to the mean, a budget the arms did
-not share, or a result measured on the same draw that produced it. A system that cannot tell those
-apart from real gains will improve itself confidently in the wrong direction, and compound.
-
-So the loop is only as good as what closes it. Improvement has to be settled against evidence the
-self did not select, and the decision has to survive a second draw.
-
-**The field has arrived at the same sentence.** Across the 2025–26 literature, every controlled
-positive result in self-evolving systems routes through an externally verified signal gating what
-gets written, admitted, trusted or selected — and every negative result is the unverified version
-of the same operation. Meanwhile the laboratories furthest along say in public that for cumulative
-acceleration effects there is no measure. The measurement layer is the bottleneck, and it is the
-thing built here.
-
-## The first gated curve
-
-This project now holds what we believe is the first self-improvement trajectory on record to be
-rendered as a statistical verdict rather than a chart: an instruction-evolution loop, guided only
-by mechanically attributed failures, adopted only on held-out improvement, run under a
-pre-registered protocol with the drift floor measured inside the experiment. Net expansion was
-real. The verdict was **tapering** — the rate fell within the run, the time-uniform bound did not
-exclude zero, and most of the headline was churn. The system reported the bend in its own curve.
-
-That is the point. A curve that read "twenty to thirty, fifty percent relative gain" would have
-been publishable anywhere. What makes improvement *mean* something is machinery that refuses that
-sentence when the evidence cannot carry it — including, especially, about itself.
-
-## Persona text does not confer competence
-
-Expert personas show no consistent benefit on hard reasoning across six model families.
-Low-knowledge personas are actively harmful. Role prompting changes register and vocabulary while
-leaving factual reliability exactly where it was. This finding has been replicated repeatedly
-through 2026, including under randomized controls; the refinement is that persona buys register
-and alignment — orthogonal to competence, sometimes at its expense.
-
-So expertise cannot be a prompt field. It has to be a bundle of things a self can **reach** and be
-**checked by**:
+Expert personas show no consistent benefit on hard reasoning across six model families; low-knowledge
+personas are actively harmful. Role prompting changes register and vocabulary while leaving factual
+reliability exactly where it was. So expertise cannot be a prompt field. It has to be a bundle of
+things a self can **reach** and be **checked by**:
 
 > **Competence = what it can reach × what checks it. Never what it is called.**
 
-Everything else here is downstream of that sentence.
-
-## What a self is made of
-
-| Part | What it is |
-|---|---|
-| **Souls** | Function-typed internal voices — propose, critique, verify — not personalities |
-| **Reach** | The tools, stores, procedures and corpora each soul may touch |
-| **Verification** | A substrate the self cannot author |
-| **Identity** | Principal, anchor, provenance, disclosure |
-| **Bounds** | Depth, spawn, token and cost caps, inherited transitively |
-
-The verification substrate is load-bearing. A self that authors its own ground truth can prove
-anything, and a self-improving one will. **All seven regimes below now refuse to exist without
-their substrate declared** — a self whose ground truth is a model's opinion is refused at
-construction, not discouraged in documentation.
-
-What closed is the construction layer: a self refuses to build without its declared protocol or
-register. The live substrate those declarations point at — the raters behind the protocol, the
-capture path behind the register — is a deployment that has not happened. Refusal at construction
-proves the self demands its ground; only deployment supplies it.
+Everything here is downstream of that sentence.
 
 ## Expertise groups by how it is proved wrong
 
-Expertise that shares a **way of being proved wrong** shares machinery. Expertise that merely
-sounds similar does not.
+Expertise that shares a *way of being proved wrong* shares machinery. That is what makes the selves a
+family rather than a list.
 
 | Regime | Ground truth |
 |---|---|
@@ -102,55 +48,82 @@ sounds similar does not.
 | **Instrument** | A physical measurement the self cannot fake — declared before the work, recorded by a party that is not the self |
 | **Procedure** | A checklist, protocol or regulation with an owner |
 | **Source** | A citation that resolves and says what was claimed |
-| **Preference** | Blinded pairwise comparison against a failure taxonomy named before any comparison runs, with more than one rater — because position alone flips a double-digit share of verdicts, and one rater's preference carries no reliability estimate at all |
-| **Outcome** | A delayed, noisy, real-world signal — predictions written down before the fact and settled later **by a party that is not the self** |
+| **Preference** | Blinded pairwise comparison against a failure taxonomy named before any comparison runs, with more than one rater |
+| **Outcome** | A delayed, noisy, real-world signal — written down before the fact and settled later **by a party that is not the self** |
 
-## What a human brings, built the way the evidence permits
+The verification substrate is load-bearing. **A self that authors its own ground truth can prove
+anything, and a self-improving one will.** So a self whose ground truth is a model's opinion is
+refused at construction, not discouraged in documentation.
 
-A self that operates the way a person does needs more than voices: episodes, growth, reflection,
-relationships, even something like dreams. Each of these has a costume version that measures
-negative and an evidence-compliant version that survives:
+---
 
-- **Episodes** — append-only, reconstructed at read. Consolidating memory rewrites degrade
-  fastest; conflict-preserving history is what buys honest abstention.
-- **Reflection** — from *verified failures only*. Unguided self-critique turns correct answers
-  wrong at measured double-digit rates; failure signals extracted mechanically fix what free-form
-  self-diagnosis confabulates.
-- **Growth** — adaptive competence-band admission, promoted on the demonstrated floor, demoted
-  only when the optimistic reading fails. Fixed easy-to-hard ladders measure no better than
-  random ordering.
-- **Relationships** — standing earned from commitments settled by the counterparty, disclosure
-  before anything else, corrections from the principal kept as ground. Ambient interaction
-  history alone measurably fails to align an agent to its principal.
-- **Dreams** — an idle pass that settles books and names what is due, and refuses to rewrite
-  memories, settle its own evidence, or adopt its own lessons. Offline compute is amortization;
-  consolidation harms once the raw record fits.
-- **Many minds** — the deep result: no ensemble of models buys real independence (effective width
-  ceilings near two, however many voices are added, and models converge hardest exactly on what
-  they collectively get wrong). Genuine second opinions come from **different ground** — disjoint
-  evidence, non-model verifiers — not from more voices.
+## What is built
+
+Recursive Selves is a measurement discipline, a fleet of expert selves, and the infrastructure they
+run on — held to one standard, and honest about what is and isn't real.
+
+### The discipline — the real asset
+
+**[Recursive Self Instruments](https://github.com/hilarl/recursive-self-instruments)** — ~35 rigorous
+statistical gates (deflated Sharpe, PBO, warrant, verifier calibration, fidelity, betting/abLift…),
+643 tests. It deliberately carries none of the project's vocabulary, so it can be pointed at any
+system, including someone else's — and has: it has refused published results at design level, refused
+this project's own claims repeatedly, and refused its own operator's protocol errors during live runs.
+
+**The proof it is honest — the first gated curve.** An instruction-evolution loop, guided only by
+mechanically attributed failures, adopted only on held-out improvement, under a pre-registered
+protocol. Net expansion was real; the verdict was **tapering** — the rate fell within the run and the
+time-uniform bound did not exclude zero. A chart reading "50% relative gain" would have been
+publishable anywhere. **The system reported the bend in its own curve instead.** That is the point.
+
+### The collective — expert selves
+
+Each self certifies its checkable perimeter and **refuses its judgment core** — machine proposes,
+human disposes. Today they run on deterministic fallbacks: the architecture is proven end to end; the
+real models and data are *first light*.
+
+[Design](https://github.com/hilarl/recursive-self-brand) ·
+[Trader](https://github.com/hilarl/recursive-self-trader) ·
+[Engineer](https://github.com/hilarl/recursive-self-engineer) ·
+[Legal](https://github.com/hilarl/recursive-self-legal) ·
+[Finance](https://github.com/hilarl/recursive-self-finance) ·
+[Music](https://github.com/hilarl/recursive-self-music) ·
+[3D](https://github.com/hilarl/recursive-self-3d) ·
+[Growth](https://github.com/hilarl/recursive-self-growth) ·
+[Partnerships](https://github.com/hilarl/recursive-self-bizdev) ·
+[Executive](https://github.com/hilarl/recursive-self-executive)
+
+### The infrastructure they run on
+
+- **[praecise](https://github.com/hilarl/praecise-harness)** — the agent framework the selves are
+  built on (421 tests). Durable execution with **exactly-once** side effects; a non-repudiable
+  human-approval gate with **distinct-approver quorum**; **W3C PROV** provenance; a **value-of-computation**
+  model ladder; **CoALA-typed** memory (episodic / semantic / procedural); provisioning
+  **non-escalation** (a plan can never widen its own authority).
+- **The neuralese dialect** — a compressed-but-legible internal notation. Agents may deliberate in
+  dense latent form, but every decision a human disposes on serialises to a legible, schema-tagged,
+  **lossless** form. Dense where it is free; legible where it is judged. Never a private code on a
+  channel a human must audit.
+- **Governance** — a legal-entity **mandate**, **scoped authority**, and a **capital circuit-breaker**.
+  Software records and enforces scope; it never confers standing. The authority — the go/no-go, the
+  capital, the counsel — stays human, by construction.
 
 ## Knowing what it does not know
 
-Calibration is scored by the Brier score, decomposed the way Murphy decomposed it — reliability,
-resolution, uncertainty. The decomposition is the point: a forecaster who answers with the base
-rate every time is *perfectly calibrated* and carries no information at all. A self that improves
-its calibration score by becoming vaguer has not improved.
+Calibration is scored by the Brier score, decomposed as Murphy decomposed it — reliability,
+resolution, uncertainty. A forecaster who answers with the base rate every time is *perfectly
+calibrated* and carries no information at all. **A self that improves its score by becoming vaguer has
+not improved**, and the decomposition is what catches it.
 
-## Measurement
+## The honest state
 
-Claims are gated by a measurement layer developed alongside this research — deliberately carrying
-none of its vocabulary so it can be pointed at any system, including somebody else's — and it
-has been: it has refused published results at design level, refused this project's own claims
-repeatedly, and refused its own operator's protocol errors during live runs. The gates check the
-things that make a result evaporate: effect size against redraw noise, discordance between arms,
-selection and reporting on the same items, budget mismatches, criteria chosen after the numbers,
-and verdicts that were never entitled to fire.
+The apparatus is complete and tested. What remains is not more code — it is **first light** (real
+models on real hardware, real data behind the fallbacks) and the things software records but never
+confers: **capital, legal standing, a human with authority.** A telescope, every lens ground and
+aligned, before it has gathered real light. The most honest thing this project can say is exactly
+where that line falls — which is the whole discipline, turned on itself.
 
-The same discipline points outward at questions beyond self-improvement: safety, bias and honesty
-claims about models are improvement claims wearing different clothes, and fail in the same ways —
-single runs, no floors, unmatched arms. A companion project pointing these gates at models
-themselves — bias, safety and honesty claims, held to the same standard — is in progress.
+---
 
 ## Related
 
