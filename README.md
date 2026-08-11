@@ -198,7 +198,7 @@ turned on itself.
 ## Related
 
 - **[Sovox](https://github.com/hilarl/sovox)** — the operating system for decentralized AI
-- **[Tenzro](https://github.com/tenzro)** — the distributed computing network and infrastructure
+- **[Tenzro](https://github.com/tenzro)** — the distributed computing network
 - **[Ectopia](https://github.com/hilarl/ectopia)** — the 2019 blueprint
 - **[Decadence](https://open.spotify.com/album/2IhweFSLiYirosGe7WcRs7)** (2012) with [Nothnegal](https://en.wikipedia.org/wiki/Nothnegal) — a concept album set in a future governed by artificial intelligence. *[Singularity](https://open.spotify.com/track/1i4tTyQFVISc3sg1mnnql1)* is about the self-improving AI at its centre.
 
