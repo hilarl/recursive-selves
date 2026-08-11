@@ -1,7 +1,14 @@
 # Recursive Self
 
+*The discipline behind **Recursive Selves**. See [BRAND.md](BRAND.md) for the full hierarchy.*
+
 Research on **self-improving AI** — expert selves that revise themselves, and the evidence that
 decides whether a revision was actually an improvement.
+
+**Recursive Self** is the *discipline*: an expert self that recursively measures and revises itself,
+and refuses to call a revision an improvement until the evidence says so. **Recursive Selves** is the
+*collective* of those expert selves — Recursive Self Design, Recursive Self Trader, Recursive Self
+Engineer, and the rest. The plural sells the company; the singular keeps the idea sharp.
 
 ---
 
