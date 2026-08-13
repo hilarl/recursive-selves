@@ -1,4 +1,4 @@
-# Recursive Self
+# Recursive Selves
 
 Research on **self-improving AI** — expert selves that revise themselves, and the evidence that
 decides whether a revision was actually an improvement.
@@ -14,6 +14,10 @@ from outside.
 
 It persists. It accumulates. It is answerable for what it did under its own name. That is what
 makes it a self rather than a session.
+
+Plural, because one is not the unit of interest. A discipline that can produce one such being
+produces a population of them — each in its own domain, each proved wrong in its own way, all held
+to a single standard. The standard is the research.
 
 ## Self-improvement is the object of study
 
@@ -58,7 +62,7 @@ The measurement layer is the bottleneck, and it is the thing built here.
 
 ## The first gated curve
 
-This project now holds what we believe is the first self-improvement trajectory on record to be
+This project holds what we believe is the first self-improvement trajectory on record to be
 rendered as a statistical verdict rather than a chart: an instruction-evolution loop, guided only
 by mechanically attributed failures, adopted only on held-out improvement, run under a
 pre-registered protocol with the drift floor measured inside the experiment. Net expansion was
@@ -169,6 +173,11 @@ deterministic codec, never a lossy paraphrase. Dense where it is free; legible w
 It is the verification substrate again, said about language instead of proof: a self must remain
 checkable in principle, or it means nothing — even to itself.
 
+And a codec is only that guarantee if it holds against text a model wrote, not only against text
+the designer imagined. A compression scheme that mis-decodes without saying so is worse than none,
+because the audit reads clean either way — so the notation has to refuse ambiguity rather than
+resolve it, and the adversarial cases, not the well-formed ones, are what settle whether it does.
+
 ## The machine proposes; the human disposes
 
 A self that can act needs a boundary it cannot move. The measurable, reversible work — the
@@ -179,13 +188,33 @@ the machine cannot route around it.
 
 So the boundary is built, not asserted. An action through a one-way door, or over a spend cap, does
 not fire — it files for approval and the run parks until a human signs; the approval is scoped and
-bound to the exact action approved (the seam for a real cryptographic signature is in place; the
-signing itself awaits deployment), and for the highest-consequence actions two distinct approvers
-are required. Side
+bound to the exact action approved, re-checked at the moment of firing rather than at the moment of
+granting (the seam for a real cryptographic signature is in place; the signing itself awaits
+deployment), and for the highest-consequence actions two distinct approvers are required. Side
 effects execute exactly once, even across a crash. Provenance records which self, on whose behalf,
 produced which artifact from which inputs. A provisioned sub-self can only ever *narrow* its
 authority, never widen it. And a self acts on behalf of a real, liable principal or it does not
 act at all — software records that authority; it never confers it.
+
+## Evidence is not enforcement
+
+A guard that is proven to work is not the same as a guard that runs. This is the sharpest thing the
+project has learned about itself, and it was learned the way everything else here is: by turning the
+standard inward and finding the machinery wanting.
+
+Audited adversarially against its own claims, the system was found holding several of its stated
+properties as *demonstrations* rather than as *controls* — mechanisms that behaved correctly when
+called, on paths where nothing guaranteed they were called. Each had a passing test. The tests were
+not wrong; they proved the mechanism, not its position. That gap is invisible to a green suite and
+obvious to an adversary, and it is the same failure this research names everywhere else: a property
+asserted where it should have been forced.
+
+The general lesson is the one worth keeping. **A system that improves itself will accumulate proofs
+of its own safety faster than it accumulates the enforcement of it**, because a proof is cheap to add
+and enforcement changes behaviour. So a control counts only where it sits on the path an action
+actually takes; anywhere else it is documentation with a test attached. Audit for what runs, not for
+what passes — and expect the answer to be uncomfortable, because the gap grows in exactly the systems
+most confident about it.
 
 ## Knowing what it does not know
 
@@ -199,10 +228,11 @@ its calibration score by becoming vaguer has not improved.
 Claims are gated by a measurement layer developed alongside this research — deliberately carrying
 none of its vocabulary so it can be pointed at any system, including somebody else's — and it has
 been: it has refused published results at design level, refused this project's own claims
-repeatedly, and refused its own operator's protocol errors during live runs. The gates check the
-things that make a result evaporate: effect size against redraw noise, discordance between arms,
-selection and reporting on the same items, budget mismatches, criteria chosen after the numbers,
-and verdicts that were never entitled to fire.
+repeatedly, refused its own operator's protocol errors during live runs, and once refused a single
+word in its own documentation, because the word came from the vocabulary it is sworn not to carry.
+The gates check the things that make a result evaporate: effect size against redraw noise,
+discordance between arms, selection and reporting on the same items, budget mismatches, criteria
+chosen after the numbers, and verdicts that were never entitled to fire.
 
 The same discipline points outward at questions beyond self-improvement: safety, bias and honesty
 claims about models are improvement claims wearing different clothes, and fail in the same ways —
@@ -211,14 +241,14 @@ themselves — bias, safety and honesty claims, held to the same standard — is
 
 ## What is built, and what is not
 
-The apparatus is complete — measured where it has run, tested where it has not: the instruments,
-the framework a self runs on, the internal-language discipline, and the human-authority boundary,
-all end-to-end and under test. What
-remains is not more of it. It is **real models on real hardware, real data behind the current
-stand-ins, and the things software records but never supplies** — capital, legal standing, a person
-with authority. A telescope, every lens ground and aligned, before it has gathered light. The
-discipline's last honest act is to say exactly where that line falls — which is the whole of it,
-turned on itself.
+The apparatus is complete — measured where it has run, tested where it has not, and audited for the
+difference: the instruments, the framework the selves run on, the internal-language discipline, and
+the human-authority boundary, all end-to-end, under test, and enforced on the path rather than
+beside it. What remains is not more of it. It is **real models on real hardware, real data behind
+the current stand-ins, and the things software records but never supplies** — capital, legal
+standing, a person with authority. A telescope, every lens ground and aligned, before it has
+gathered light. The discipline's last honest act is to say exactly where that line falls — which is
+the whole of it, turned on itself.
 
 ---
 
