@@ -49,6 +49,11 @@ causal**: a reward that looks verifiable can still be an artifact — a *random*
 model by fifteen points where the evaluation overlapped what it had already been trained on. The gate
 must reach the claim, and the claim must survive a draw the self did not select.
 
+And where no checker reaches at all — taste, judgment, the genuinely unverifiable — the honest loop
+changes shape rather than pretending. It stops claiming a gradient and keeps a map: many diverse
+candidates held open under whatever partial signals exist, instead of a single score ranking what
+no score can rank. Improvement there is coverage of the space, not a number going up.
+
 The measurement layer is the bottleneck, and it is the thing built here.
 
 ## The first gated curve
@@ -57,8 +62,11 @@ This project now holds what we believe is the first self-improvement trajectory 
 rendered as a statistical verdict rather than a chart: an instruction-evolution loop, guided only
 by mechanically attributed failures, adopted only on held-out improvement, run under a
 pre-registered protocol with the drift floor measured inside the experiment. Net expansion was
-real. The verdict was **tapering** — the rate fell within the run, the time-uniform bound did not
-exclude zero, and most of the headline was churn. The system reported the bend in its own curve.
+real. The verdict was **tapering** — and what survives scrutiny is not the taper. Interrogated
+afterwards, the slope statistic turned out to be reading mostly *when* a consolidation event landed
+inside the window, not how fast anything was improving. What survives is the refusal: the
+time-uniform bound did not exclude zero, most of the headline was churn, and the system said so
+about its own curve while the run was live.
 
 That is the point. A curve that read "twenty to thirty, fifty percent relative gain" would have
 been publishable anywhere. What makes improvement *mean* something is machinery that refuses that
@@ -170,8 +178,10 @@ a person. That is not a courtesy bolted on afterwards; it is infrastructure, and
 the machine cannot route around it.
 
 So the boundary is built, not asserted. An action through a one-way door, or over a spend cap, does
-not fire — it files for approval and the run parks until a human signs; the signature is scoped and
-non-repudiable, and for the highest-consequence actions two distinct approvers are required. Side
+not fire — it files for approval and the run parks until a human signs; the approval is scoped and
+bound to the exact action approved (the seam for a real cryptographic signature is in place; the
+signing itself awaits deployment), and for the highest-consequence actions two distinct approvers
+are required. Side
 effects execute exactly once, even across a crash. Provenance records which self, on whose behalf,
 produced which artifact from which inputs. A provisioned sub-self can only ever *narrow* its
 authority, never widen it. And a self acts on behalf of a real, liable principal or it does not
@@ -201,8 +211,9 @@ themselves — bias, safety and honesty claims, held to the same standard — is
 
 ## What is built, and what is not
 
-The apparatus is complete and measured: the instruments, the framework a self runs on, the
-internal-language discipline, and the human-authority boundary, all end-to-end and under test. What
+The apparatus is complete — measured where it has run, tested where it has not: the instruments,
+the framework a self runs on, the internal-language discipline, and the human-authority boundary,
+all end-to-end and under test. What
 remains is not more of it. It is **real models on real hardware, real data behind the current
 stand-ins, and the things software records but never supplies** — capital, legal standing, a person
 with authority. A telescope, every lens ground and aligned, before it has gathered light. The
