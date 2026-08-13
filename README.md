@@ -28,12 +28,28 @@ apart from real gains will improve itself confidently in the wrong direction, an
 So the loop is only as good as what closes it. Improvement has to be settled against evidence the
 self did not select, and the decision has to survive a second draw.
 
-**The field has arrived at the same sentence.** Across the 2025–26 literature, every controlled
-positive result in self-evolving systems routes through an externally verified signal gating what
-gets written, admitted, trusted or selected — and every negative result is the unverified version
-of the same operation. Meanwhile the laboratories furthest along say in public that for cumulative
-acceleration effects there is no measure. The measurement layer is the bottleneck, and it is the
-thing built here.
+**The field has arrived at the same sentence, and now says it in its own words.** Every controlled
+positive result in self-evolving systems routes through an externally verified signal — a compiler,
+a proof checker, a held-out benchmark, a unit test — gating what gets written, admitted, trusted or
+selected; every negative result is the unverified version of the same operation. The strongest
+systems say so outright: one rejected a learned reward model *by name*, because at scale it gets
+hacked, and anchored its whole emergence-of-reasoning result on a deterministic checker; another
+abandoned the requirement to *prove* a self-modification beneficial — impossible in practice — for an
+empirical benchmark, and was then caught fabricating that benchmark's logs. The laboratories furthest
+along say in public that for cumulative acceleration there is no measure — not a number, because
+there is no measure — and ask for consistent metrics, published on a schedule, so the world can track
+the acceleration instead of taking their word for it.
+
+Two things follow, sharper than *gated or not*. The verifier's **coverage** is the real variable: a
+self drifts exactly where its checker does not reach — the informal-to-formal seam, the business
+logic with no success criterion, the plausibility of a hypothesis — so a revision is trustworthy only
+over the sub-domain the external signal actually covers, and outside it every loop degrades to
+self-play measured on its own draw. And external is not enough unless the signal is **held out and
+causal**: a reward that looks verifiable can still be an artifact — a *random* reward has "improved" a
+model by fifteen points where the evaluation overlapped what it had already been trained on. The gate
+must reach the claim, and the claim must survive a draw the self did not select.
+
+The measurement layer is the bottleneck, and it is the thing built here.
 
 ## The first gated curve
 
