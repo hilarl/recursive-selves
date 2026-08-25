@@ -1,6 +1,7 @@
 README.md
 PUBLIC-ALLOWLIST.txt
 scripts/check-public-split.sh
+scripts/check-public-split.test.sh
 scripts/hooks/pre-push
 .github/workflows/public-split.yml
 .gitignore
