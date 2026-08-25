@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Pre-push hook: block a push that would leak an internal file or forbidden
+# string into this public split repo.
+#
+# Not installed by default — git only runs hooks from .git/hooks, and that
+# directory isn't tracked. Enable this hook (and any others added under
+# scripts/hooks) once per clone with:
+#
+#   git config core.hooksPath scripts/hooks
+#
+# After that, every push runs scripts/check-public-split.sh first and is
+# rejected locally if it fails, before anything reaches origin/CI.
+set -uo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+"$repo_root/scripts/check-public-split.sh"
+rc=$?
+
+if [ "$rc" -ne 0 ]; then
+  echo "pre-push: public-split check failed — push rejected (see above)." >&2
+  echo "pre-push: fix the issue(s) above, or run scripts/check-public-split.sh directly to re-check." >&2
+fi
+
+exit "$rc"

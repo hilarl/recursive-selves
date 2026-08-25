@@ -250,6 +250,21 @@ standing, a person with authority. A telescope, every lens ground and aligned, b
 gathered light. The discipline's last honest act is to say exactly where that line falls — which is
 the whole of it, turned on itself.
 
+## Working on this repo
+
+This is the public half of a split repo. `scripts/check-public-split.sh` enforces the
+allowlist in both directions — every tracked file must be listed, and every listed file
+must exist — and CI runs it on every push and pull request. To catch a leak before it
+ever leaves your machine, enable the local pre-push hook once per clone:
+
+```
+git config core.hooksPath scripts/hooks
+```
+
+After that, `git push` runs the same check locally and is rejected on failure before
+anything reaches origin. `scripts/check-public-split.test.sh` exercises the check
+script's failure modes against scratch git repos.
+
 ---
 
 ## Related
